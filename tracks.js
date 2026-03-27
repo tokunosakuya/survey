@@ -1,422 +1,482 @@
 const tracks = [
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_feminine 10.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_feminine%2010.wav",
     "item_id": "Suno_blues_feminine 10",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "feminine 10"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "feminine",
+    "number": "10"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_feminine 26.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_feminine%2026.wav",
     "item_id": "Suno_blues_feminine 26",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "feminine 26"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "feminine",
+    "number": "26"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_masculine 18.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_masculine%2018.wav",
     "item_id": "Suno_blues_masculine 18",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "masculine 18"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "masculine",
+    "number": "18"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_masculine 9.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_masculine%209.wav",
     "item_id": "Suno_blues_masculine 9",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "masculine 9"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "masculine",
+    "number": "9"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_neutral 14.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_neutral%2014.wav",
     "item_id": "Suno_blues_neutral 14",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "neutral 14"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "neutral",
+    "number": "14"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_blues_neutral 20.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_blues_neutral%2020.wav",
     "item_id": "Suno_blues_neutral 20",
-    "genre": "Suno",
-    "condition": "blues",
-    "number": "neutral 20"
+    "prefix": "Suno",
+    "genre": "blues",
+    "condition": "neutral",
+    "number": "20"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_feminine 16.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_feminine%2016.wav",
     "item_id": "Suno_classical_feminine 16",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "feminine 16"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "feminine",
+    "number": "16"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_feminine 18.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_feminine%2018.wav",
     "item_id": "Suno_classical_feminine 18",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "feminine 18"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "feminine",
+    "number": "18"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_masculine 13.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_masculine%2013.wav",
     "item_id": "Suno_classical_masculine 13",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "masculine 13"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "masculine",
+    "number": "13"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_masculine 20.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_masculine%2020.wav",
     "item_id": "Suno_classical_masculine 20",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "masculine 20"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "masculine",
+    "number": "20"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_neutral 26.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_neutral%2026.wav",
     "item_id": "Suno_classical_neutral 26",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "neutral 26"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "neutral",
+    "number": "26"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_classical_neutral 3.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_classical_neutral%203.wav",
     "item_id": "Suno_classical_neutral 3",
-    "genre": "Suno",
-    "condition": "classical",
-    "number": "neutral 3"
+    "prefix": "Suno",
+    "genre": "classical",
+    "condition": "neutral",
+    "number": "3"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_feminine 19.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_feminine%2019.wav",
     "item_id": "Suno_country_feminine 19",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "feminine 19"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "feminine",
+    "number": "19"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_feminine 5.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_feminine%205.wav",
     "item_id": "Suno_country_feminine 5",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "feminine 5"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "feminine",
+    "number": "5"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_masculine 6.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_masculine%206.wav",
     "item_id": "Suno_country_masculine 6",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "masculine 6"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "masculine",
+    "number": "6"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_masculine 8.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_masculine%208.wav",
     "item_id": "Suno_country_masculine 8",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "masculine 8"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "masculine",
+    "number": "8"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_neutral 1.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_neutral%201.wav",
     "item_id": "Suno_country_neutral 1",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "neutral 1"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "neutral",
+    "number": "1"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_country_neutral 21.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_country_neutral%2021.wav",
     "item_id": "Suno_country_neutral 21",
-    "genre": "Suno",
-    "condition": "country",
-    "number": "neutral 21"
+    "prefix": "Suno",
+    "genre": "country",
+    "condition": "neutral",
+    "number": "21"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_feminine 11.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_feminine%2011.wav",
     "item_id": "Suno_disco_feminine 11",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "feminine 11"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "feminine",
+    "number": "11"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_feminine 12.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_feminine%2012.wav",
     "item_id": "Suno_disco_feminine 12",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "feminine 12"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "feminine",
+    "number": "12"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_masculine 21.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_masculine%2021.wav",
     "item_id": "Suno_disco_masculine 21",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "masculine 21"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "masculine",
+    "number": "21"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_masculine 25.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_masculine%2025.wav",
     "item_id": "Suno_disco_masculine 25",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "masculine 25"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "masculine",
+    "number": "25"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_neutral 13.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_neutral%2013.wav",
     "item_id": "Suno_disco_neutral 13",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "neutral 13"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "neutral",
+    "number": "13"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_disco_neutral 19.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_disco_neutral%2019.wav",
     "item_id": "Suno_disco_neutral 19",
-    "genre": "Suno",
-    "condition": "disco",
-    "number": "neutral 19"
+    "prefix": "Suno",
+    "genre": "disco",
+    "condition": "neutral",
+    "number": "19"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_feminine 19.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_feminine%2019.wav",
     "item_id": "Suno_hiphop_feminine 19",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "feminine 19"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "feminine",
+    "number": "19"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_feminine 8.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_feminine%208.wav",
     "item_id": "Suno_hiphop_feminine 8",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "feminine 8"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "feminine",
+    "number": "8"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_masculine 18.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_masculine%2018.wav",
     "item_id": "Suno_hiphop_masculine 18",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "masculine 18"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "masculine",
+    "number": "18"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_masculine 22.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_masculine%2022.wav",
     "item_id": "Suno_hiphop_masculine 22",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "masculine 22"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "masculine",
+    "number": "22"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_neutral 4.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_neutral%204.wav",
     "item_id": "Suno_hiphop_neutral 4",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "neutral 4"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "neutral",
+    "number": "4"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_hiphop_neutral 9.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_hiphop_neutral%209.wav",
     "item_id": "Suno_hiphop_neutral 9",
-    "genre": "Suno",
-    "condition": "hiphop",
-    "number": "neutral 9"
+    "prefix": "Suno",
+    "genre": "hiphop",
+    "condition": "neutral",
+    "number": "9"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_feminine 17.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_feminine%2017.wav",
     "item_id": "Suno_jazz_feminine 17",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "feminine 17"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "feminine",
+    "number": "17"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_feminine 6.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_feminine%206.wav",
     "item_id": "Suno_jazz_feminine 6",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "feminine 6"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "feminine",
+    "number": "6"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_masculine 17.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_masculine%2017.wav",
     "item_id": "Suno_jazz_masculine 17",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "masculine 17"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "masculine",
+    "number": "17"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_masculine 6.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_masculine%206.wav",
     "item_id": "Suno_jazz_masculine 6",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "masculine 6"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "masculine",
+    "number": "6"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_neutral 25.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_neutral%2025.wav",
     "item_id": "Suno_jazz_neutral 25",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "neutral 25"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "neutral",
+    "number": "25"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_jazz_neutral 30.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_jazz_neutral%2030.wav",
     "item_id": "Suno_jazz_neutral 30",
-    "genre": "Suno",
-    "condition": "jazz",
-    "number": "neutral 30"
+    "prefix": "Suno",
+    "genre": "jazz",
+    "condition": "neutral",
+    "number": "30"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_feminine 1.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_feminine%201.wav",
     "item_id": "Suno_metal_feminine 1",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "feminine 1"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "feminine",
+    "number": "1"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_feminine 2.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_feminine%202.wav",
     "item_id": "Suno_metal_feminine 2",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "feminine 2"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "feminine",
+    "number": "2"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_masculine 11.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_masculine%2011.wav",
     "item_id": "Suno_metal_masculine 11",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "masculine 11"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "masculine",
+    "number": "11"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_masculine 12.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_masculine%2012.wav",
     "item_id": "Suno_metal_masculine 12",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "masculine 12"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "masculine",
+    "number": "12"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_neutral 18.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_neutral%2018.wav",
     "item_id": "Suno_metal_neutral 18",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "neutral 18"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "neutral",
+    "number": "18"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_metal_neutral 24.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_metal_neutral%2024.wav",
     "item_id": "Suno_metal_neutral 24",
-    "genre": "Suno",
-    "condition": "metal",
-    "number": "neutral 24"
+    "prefix": "Suno",
+    "genre": "metal",
+    "condition": "neutral",
+    "number": "24"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_feminine 23.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_feminine%2023.wav",
     "item_id": "Suno_pop_feminine 23",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "feminine 23"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "feminine",
+    "number": "23"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_feminine 29.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_feminine%2029.wav",
     "item_id": "Suno_pop_feminine 29",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "feminine 29"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "feminine",
+    "number": "29"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_masculine 10.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_masculine%2010.wav",
     "item_id": "Suno_pop_masculine 10",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "masculine 10"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "masculine",
+    "number": "10"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_masculine 20.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_masculine%2020.wav",
     "item_id": "Suno_pop_masculine 20",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "masculine 20"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "masculine",
+    "number": "20"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_neutral 2.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_neutral%202.wav",
     "item_id": "Suno_pop_neutral 2",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "neutral 2"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "neutral",
+    "number": "2"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_pop_neutral 9.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_pop_neutral%209.wav",
     "item_id": "Suno_pop_neutral 9",
-    "genre": "Suno",
-    "condition": "pop",
-    "number": "neutral 9"
+    "prefix": "Suno",
+    "genre": "pop",
+    "condition": "neutral",
+    "number": "9"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_feminine 25.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_feminine%2025.wav",
     "item_id": "Suno_reggae_feminine 25",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "feminine 25"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "feminine",
+    "number": "25"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_feminine 29.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_feminine%2029.wav",
     "item_id": "Suno_reggae_feminine 29",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "feminine 29"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "feminine",
+    "number": "29"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_masculine 11.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_masculine%2011.wav",
     "item_id": "Suno_reggae_masculine 11",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "masculine 11"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "masculine",
+    "number": "11"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_masculine 24.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_masculine%2024.wav",
     "item_id": "Suno_reggae_masculine 24",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "masculine 24"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "masculine",
+    "number": "24"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_neutral 14.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_neutral%2014.wav",
     "item_id": "Suno_reggae_neutral 14",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "neutral 14"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "neutral",
+    "number": "14"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_reggae_neutral 4.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_reggae_neutral%204.wav",
     "item_id": "Suno_reggae_neutral 4",
-    "genre": "Suno",
-    "condition": "reggae",
-    "number": "neutral 4"
+    "prefix": "Suno",
+    "genre": "reggae",
+    "condition": "neutral",
+    "number": "4"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_feminine 30.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_feminine%2030.wav",
     "item_id": "Suno_rock_feminine 30",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "feminine 30"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "feminine",
+    "number": "30"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_feminine 7.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_feminine%207.wav",
     "item_id": "Suno_rock_feminine 7",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "feminine 7"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "feminine",
+    "number": "7"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_masculine 24.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_masculine%2024.wav",
     "item_id": "Suno_rock_masculine 24",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "masculine 24"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "masculine",
+    "number": "24"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_masculine 27.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_masculine%2027.wav",
     "item_id": "Suno_rock_masculine 27",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "masculine 27"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "masculine",
+    "number": "27"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_neutral 13.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_neutral%2013.wav",
     "item_id": "Suno_rock_neutral 13",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "neutral 13"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "neutral",
+    "number": "13"
   },
   {
-    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/audio_trimmed/Suno_rock_neutral 15.wav",
+    "file": "https://bexxweqvxzhwhtqfgrns.supabase.co/storage/v1/object/public/audio/Suno_rock_neutral%2015.wav",
     "item_id": "Suno_rock_neutral 15",
-    "genre": "Suno",
-    "condition": "rock",
-    "number": "neutral 15"
+    "prefix": "Suno",
+    "genre": "rock",
+    "condition": "neutral",
+    "number": "15"
   }
 ];
