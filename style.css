@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f8fb;
+}
+
+.jspsych-content {
+  max-width: 860px;
+  margin-top: 90px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#progress-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 14px 20px;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+#progress-text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#progress-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.progress-btn {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.progress-btn:hover {
+  background: #f3f3f3;
+}
